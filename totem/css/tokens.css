@@ -13,6 +13,10 @@
   --ct-shadow: 0 12px 32px rgba(53, 84, 224, 0.14);
   --ct-shadow-soft: 0 8px 20px rgba(45, 49, 66, 0.08);
   --sombra-btn: 0 2px 5px 0 #cbd6e3;
+  --sombra-card: -4px -4px 12px 0 rgba(229, 233, 238, 0.5), 6px 6px 12px 0 rgba(174, 174, 192, 0.4);
+  --sombra-card-onboarding: 0 0 14px 0 rgba(212, 215, 219, 0.8);
+  --sombra-valor-negativo: inset 0 -4px 4px 0 rgba(110, 117, 135, 0.1);
+  --sombra-header: 0 4px 4px 0 rgba(0, 0, 0, 0.05);
   --ct-radius: 22px;
   --ct-radius-sm: 16px;
   --ct-grad: linear-gradient(135deg, #5b8cff 0%, #7a6bff 42%, #e91e8c 100%);

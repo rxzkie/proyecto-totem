@@ -15,6 +15,11 @@
   --safe-qr: 280px;
   --touch: 92px;
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --sombra-btn: 0 2px 5px 0 #cbd6e3;
+  --sombra-card: -4px -4px 12px 0 rgba(229, 233, 238, 0.5), 6px 6px 12px 0 rgba(174, 174, 192, 0.4);
+  --sombra-card-onboarding: 0 0 14px 0 rgba(212, 215, 219, 0.8);
+  --sombra-valor-negativo: inset 0 -4px 4px 0 rgba(110, 117, 135, 0.1);
+  --sombra-header: 0 4px 4px 0 rgba(0, 0, 0, 0.05);
   --font-display: "SF Compact Display", "SF Compact Text", "SF Pro Display", "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
   --font-body: "SF Compact Text", "SF Compact Display", "SF Pro Text", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
 }
@@ -374,13 +379,14 @@ body {
   align-items: center;
   justify-content: center;
   gap: 12px;
-  box-shadow: 0 2px 5px 0 #cbd6e3;
+  box-shadow: var(--sombra-btn);
   transition: transform 180ms var(--ease), background 180ms var(--ease), box-shadow 180ms var(--ease);
   touch-action: manipulation;
 }
 
 .btn:active {
   transform: scale(0.97);
+  box-shadow: var(--sombra-valor-negativo);
 }
 
 .btn-ghost {
@@ -732,7 +738,11 @@ body {
   gap: 8px;
   cursor: pointer;
   touch-action: manipulation;
-  box-shadow: 0 2px 5px 0 #cbd6e3;
+  box-shadow: var(--sombra-btn);
+}
+
+.explora-cat:active {
+  box-shadow: var(--sombra-valor-negativo);
 }
 
 .explora-cat strong {
@@ -760,11 +770,16 @@ body {
   font-family: var(--font-body);
   font-size: 24px;
   font-weight: 750;
-  box-shadow: 0 2px 5px 0 #cbd6e3;
+  box-shadow: var(--sombra-btn);
   justify-self: start;
   cursor: pointer;
   touch-action: manipulation;
   z-index: 850;
+}
+
+.explora-back:active,
+.map-back:active {
+  box-shadow: var(--sombra-valor-negativo);
 }
 
 .map-back {
@@ -841,7 +856,11 @@ body {
   font-weight: 700;
   cursor: pointer;
   touch-action: manipulation;
-  box-shadow: 0 2px 5px 0 #cbd6e3;
+  box-shadow: var(--sombra-btn);
+}
+
+.explora-chip:active {
+  box-shadow: var(--sombra-valor-negativo);
 }
 
 .explora-chip.is-on {
@@ -1031,9 +1050,13 @@ body {
   font-family: var(--font-body);
   font-size: 20px;
   font-weight: 750;
-  box-shadow: 0 8px 18px rgba(29, 43, 91, 0.28);
+  box-shadow: var(--sombra-btn);
   cursor: pointer;
   touch-action: manipulation;
+}
+
+.map-locate:active {
+  box-shadow: var(--sombra-valor-negativo);
 }
 
 .live-wrap:has(.map-back) .map-locate {
@@ -1070,10 +1093,14 @@ body {
   font-family: var(--font-body);
   font-size: 22px;
   font-weight: 750;
-  box-shadow: 0 2px 5px 0 #cbd6e3;
+  box-shadow: var(--sombra-btn);
   cursor: pointer;
   touch-action: manipulation;
   white-space: nowrap;
+}
+
+.map-filter:active {
+  box-shadow: var(--sombra-valor-negativo);
 }
 
 .map-filter.is-on {
