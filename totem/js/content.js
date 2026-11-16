@@ -8,7 +8,7 @@ window.TOTEM_CONTENT = {
     "height": 960
   },
   "maps": {
-    "apiKey": "",
+    "apiKey": "AIzaSyBcZU4NQ-0Wlv9g_xxfejrAmwK211mkPs8",
     "origin": {
       "name": "Parque Bicentenario",
       "zone": "Vitacura",
