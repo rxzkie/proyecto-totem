@@ -423,13 +423,13 @@
     state.stepIndex = 0;
     els.sectionTitle.textContent = section.title;
     els.sectionLead.textContent = section.lead;
-    if (section.id === "mapa") {
-      paintMap(section);
-      return;
-    }
     destroyMap();
     if (section.video) {
       paintSectionVideo(section);
+      return;
+    }
+    if (section.id === "mapa") {
+      paintMap(section);
       return;
     }
     paintSteps(section);

@@ -82,10 +82,10 @@ window.TOTEM_CONTENT = {
     {
       "id": "descubre",
       "label": "Inspírate",
-      "short": "Descubre qué tiene Chile para ti",
+      "short": "Elige tus intereses y recibe un inicio pensado para ti, con eventos y lugares según tus gustos.",
       "title": "Inspírate",
-      "lead": "Elige tus intereses y deja que Chile Travel te muestre destinos, eventos y novedades pensados para ti.",
-      "video": "assets/inspirate.mp4?v=h264",
+      "lead": "Elige tus intereses y recibe un inicio pensado para ti, con eventos y lugares según tus gustos.",
+      "video": "assets/inspirate.mp4?v=btn01",
       "steps": [
         {
           "n": 1,
@@ -107,10 +107,10 @@ window.TOTEM_CONTENT = {
     {
       "id": "imperdibles",
       "label": "Descubre",
-      "short": "Explora destinos e itinerarios",
+      "short": "Conoce los imperdibles de Chile, itinerarios a tu medida y servicios turísticos confiables de Sernatur.",
       "title": "Descubre",
-      "lead": "Imperdibles, itinerarios y servicios formales registrados en Sernatur, todo en un solo lugar y con información detallada.",
-      "video": "assets/descubre.mp4?v=h264",
+      "lead": "Conoce los imperdibles de Chile, itinerarios a tu medida y servicios turísticos confiables de Sernatur.",
+      "video": "assets/descubre.mp4?v=btn02",
       "steps": [
         {
           "n": 1,
@@ -132,9 +132,10 @@ window.TOTEM_CONTENT = {
     {
       "id": "mapa",
       "label": "Explora",
-      "short": "Navega el mapa interactivo",
+      "short": "Recorre el mapa interactivo y encuentra atractivos, servicios y estaciones de Metro cerca de ti.",
       "title": "Explora",
-      "lead": "Explora la oferta turística de Chile y encuentra lugares y experiencias que se adapten a tus intereses.",
+      "lead": "Recorre el mapa interactivo y encuentra atractivos, servicios y estaciones de Metro cerca de ti.",
+      "video": "assets/explora.mp4?v=btn03",
       "explora": {
         "intro": "Categorías, listados y fichas de contenido",
         "categories": [
@@ -225,9 +226,10 @@ window.TOTEM_CONTENT = {
     {
       "id": "favoritos",
       "label": "Guarda",
-      "short": "Crea tus listas de favoritos",
-      "title": "Favoritos",
-      "lead": "Guarda destinos y vuelve a ellos cuando planifiques.",
+      "short": "Selecciona lo que te inspira y organízalo en tus listas de favoritos para verlo cuando quieras.",
+      "title": "Guarda",
+      "lead": "Selecciona lo que te inspira y organízalo en tus listas de favoritos para verlo cuando quieras.",
+      "video": "assets/guarda.mp4?v=btn04",
       "steps": [
         {
           "n": 1,
@@ -249,9 +251,10 @@ window.TOTEM_CONTENT = {
     {
       "id": "rutas",
       "label": "Planifica",
-      "short": "Organiza tus rutas e itinerarios",
-      "title": "Planificación de rutas",
-      "lead": "Arma tu recorrido por días y deja el viaje listo para salir.",
+      "short": "Arma tu propia ruta con tus favoritos y síguela en tiempo real desde el mapa de tu celular.",
+      "title": "Planifica",
+      "lead": "Arma tu propia ruta con tus favoritos y síguela en tiempo real desde el mapa de tu celular.",
+      "video": "assets/planifica.mp4?v=btn05",
       "steps": [
         {
           "n": 1,
@@ -273,9 +276,10 @@ window.TOTEM_CONTENT = {
     {
       "id": "ia",
       "label": "Viaja",
-      "short": "Vive Chile a tu manera",
-      "title": "Asistente IA",
-      "lead": "Consulta ideas de viaje con ejemplos listos. En el tótem se muestra una demostración aprobada, sin IA en vivo.",
+      "short": "Viaja acompañado con el asistente IA, números de emergencia y la app en tu idioma.",
+      "title": "Viaja",
+      "lead": "Viaja acompañado con el asistente IA, números de emergencia y la app en tu idioma.",
+      "video": "assets/viaja.mp4?v=btn06",
       "steps": [
         {
           "n": 1,
