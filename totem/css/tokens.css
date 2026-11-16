@@ -1,0 +1,25 @@
+:root {
+  --ct-blue: #4a6bff;
+  --ct-blue-deep: #3554e0;
+  --ct-pink: #e91e8c;
+  --ct-magenta: #c44bff;
+  --ct-coral: #ff6b6b;
+  --ct-ink: #2d3142;
+  --ct-ink-soft: #6b7280;
+  --ct-bg: #fafcff;
+  --ct-bg-2: #fafcff;
+  --ct-white: #fafcff;
+  --ct-line: rgba(45, 49, 66, 0.08);
+  --ct-shadow: 0 12px 32px rgba(53, 84, 224, 0.14);
+  --ct-shadow-soft: 0 8px 20px rgba(45, 49, 66, 0.08);
+  --sombra-btn: 0 2px 5px 0 #cbd6e3;
+  --ct-radius: 22px;
+  --ct-radius-sm: 16px;
+  --ct-grad: linear-gradient(135deg, #5b8cff 0%, #7a6bff 42%, #e91e8c 100%);
+  --ct-grad-fab: linear-gradient(135deg, #4a6bff 0%, #e91e8c 100%);
+  --font-display: "SF Compact Display", "SF Compact Text", "SF Pro Display", "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  --font-body: "SF Compact Text", "SF Compact Display", "SF Pro Text", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  --safe-qr: 280px;
+  --touch: 92px;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}

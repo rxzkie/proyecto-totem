@@ -1,0 +1,17 @@
+.cursor/
+*.zip
+*.rar
+*.7z
+Thumbs.db
+Desktop.ini
+.DS_Store
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+Opcion *.mp4
+Boton *.mp4
+Video Header*.mp4
+totem.rar
+drive-download-*/

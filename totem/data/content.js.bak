@@ -1,0 +1,285 @@
+window.TOTEM_CONTENT = {
+  "brand": "ChileTravel",
+  "tagline": "Planifica, descubre y vive lo mejor de Chile.",
+  "cta": "Escanea y descarga gratis",
+  "hero": {
+    "video": "assets/hero.mp4",
+    "fallback": "assets/photos/torres-del-paine.jpg",
+    "width": 1080,
+    "height": 960
+  },
+  "qr": {
+    "ios": "https://apps.apple.com/cl/app/chile-travel/id6444221081",
+    "android": "https://play.google.com/store/apps/details?id=com.chiletravel.app"
+  },
+  "idleMs": 60000,
+  "loop": {
+    "slideMs": 8000,
+    "slides": [
+      {
+        "id": "proposito",
+        "title": "ChileTravel",
+        "headline": "Explora la app",
+        "text": "Planifica, descubre y vive lo mejor de Chile.",
+        "subtitle": "App oficial",
+        "image": "assets/photos/torres-del-paine.jpg",
+        "place": "Torres del Paine"
+      },
+      {
+        "id": "descubre",
+        "title": "Descubre",
+        "headline": "Descubre",
+        "text": "Inicio personalizado con destinos según lo que te gusta.",
+        "subtitle": "Sección 1 de 6",
+        "image": "assets/photos/san-pedro.jpg",
+        "place": "San Pedro de Atacama"
+      },
+      {
+        "id": "mapa",
+        "title": "Mapa",
+        "headline": "Mapa",
+        "text": "Explora regiones, rutas y puntos de interés en el mapa.",
+        "subtitle": "Sección 2 de 6",
+        "image": "assets/photos/conguillio.jpg",
+        "place": "Conguillío"
+      },
+      {
+        "id": "ia",
+        "title": "Asistente IA",
+        "headline": "Asistente IA",
+        "text": "Pregunta y recibe ideas de viaje listas para usar.",
+        "subtitle": "Sección 3 de 6",
+        "image": "assets/photos/pucon-cabalgata.jpg",
+        "place": "Pucón"
+      },
+      {
+        "id": "imperdibles",
+        "title": "Imperdibles",
+        "headline": "Imperdibles",
+        "text": "Lo mejor de cada zona, seleccionado para ti.",
+        "subtitle": "Sección 4 de 6",
+        "image": "assets/photos/glaciar-grey.jpg",
+        "place": "Glaciar Grey"
+      },
+      {
+        "id": "favoritos",
+        "title": "Favoritos",
+        "headline": "Favoritos",
+        "text": "Guarda lugares y arma tu lista de próximos destinos.",
+        "subtitle": "Sección 5 de 6",
+        "image": "assets/photos/elqui-cavas.jpg",
+        "place": "Valle de Elqui"
+      },
+      {
+        "id": "rutas",
+        "title": "Planificación de rutas",
+        "headline": "Planifica",
+        "text": "Ordena tu recorrido día a día y sal a recorrer.",
+        "subtitle": "Sección 6 de 6",
+        "image": "assets/photos/queulat.jpg",
+        "place": "Queulat"
+      },
+      {
+        "id": "descarga",
+        "title": "Descárgala ahora",
+        "headline": "Descárgala ahora",
+        "text": "Escanea el código QR de abajo con tu teléfono.",
+        "subtitle": "App Store y Google Play",
+        "image": "assets/photos/vina-quinta-rosa.jpg",
+        "place": "Viña Quinta Rosa"
+      }
+    ]
+  },
+  "menu": {
+    "title": "Explora la app",
+    "hint": "Toca una sección para ver cómo funciona"
+  },
+  "sections": [
+    {
+      "id": "descubre",
+      "label": "Descubre",
+      "short": "Inicio personalizado",
+      "title": "Descubre e inicio personalizado",
+      "lead": "ChileTravel te muestra destinos según tus intereses desde el primer ingreso.",
+      "cover": "assets/photos/atacama-medanos.jpg",
+      "steps": [
+        {
+          "n": 1,
+          "title": "Abre la app",
+          "text": "Entras y ves un inicio con propuestas claras para empezar a explorar Chile.",
+          "image": "assets/photos/torres-del-paine.jpg",
+          "place": "Torres del Paine"
+        },
+        {
+          "n": 2,
+          "title": "Elige tus intereses",
+          "text": "Naturaleza, cultura, gastronomía o aventura: la app ajusta lo que te muestra.",
+          "image": "assets/photos/avistamiento.jpg",
+          "place": "Naturaleza viva"
+        },
+        {
+          "n": 3,
+          "title": "Recibe tu feed",
+          "text": "Aparecen destinos y experiencias alineados a lo que marcaste.",
+          "image": "assets/photos/city-tour.jpg",
+          "place": "Ciudad y cultura"
+        }
+      ]
+    },
+    {
+      "id": "mapa",
+      "label": "Mapa",
+      "short": "Explora el territorio",
+      "title": "Mapa",
+      "lead": "Navega Chile en el mapa y ubica regiones, rutas y lugares clave.",
+      "cover": "assets/photos/conguillio.jpg",
+      "steps": [
+        {
+          "n": 1,
+          "title": "Abre el mapa",
+          "text": "Ves el país completo y puedes acercarte a la zona que te interesa.",
+          "image": "assets/photos/queulat.jpg",
+          "place": "Patagonia"
+        },
+        {
+          "n": 2,
+          "title": "Filtra lo que buscas",
+          "text": "Activa categorías para ver solo lo relevante en esa zona.",
+          "image": "assets/photos/mataquitos.jpg",
+          "place": "Ecoturismo"
+        },
+        {
+          "n": 3,
+          "title": "Entra al detalle",
+          "text": "Toca un punto y revisa información útil para tu visita.",
+          "image": "assets/photos/plaza-camilo-mori.jpg",
+          "place": "Barrios y plazas"
+        }
+      ]
+    },
+    {
+      "id": "ia",
+      "label": "Asistente IA",
+      "short": "Ideas de viaje",
+      "title": "Asistente IA",
+      "lead": "Consulta ideas de viaje con ejemplos listos. En el tótem se muestra una demostración aprobada, sin IA en vivo.",
+      "cover": "assets/photos/pucon-cabalgata.jpg",
+      "steps": [
+        {
+          "n": 1,
+          "title": "Escribe tu idea",
+          "text": "Ejemplo: “fin de semana cerca de Santiago con naturaleza”.",
+          "image": "assets/photos/conguillio.jpg",
+          "place": "Sur de Chile"
+        },
+        {
+          "n": 2,
+          "title": "Revisa la propuesta",
+          "text": "La app entrega opciones concretas con destinos y actividades.",
+          "image": "assets/photos/glaciar-grey.jpg",
+          "place": "Aventura"
+        },
+        {
+          "n": 3,
+          "title": "Guarda lo que te sirve",
+          "text": "Agrega ideas a favoritos o úsalas para armar tu ruta.",
+          "image": "assets/photos/elqui-cavas.jpg",
+          "place": "Enoturismo"
+        }
+      ]
+    },
+    {
+      "id": "imperdibles",
+      "label": "Imperdibles",
+      "short": "Lo mejor de Chile",
+      "title": "Imperdibles",
+      "lead": "Una selección de experiencias y lugares destacados por zona.",
+      "cover": "assets/photos/glaciar-grey.jpg",
+      "steps": [
+        {
+          "n": 1,
+          "title": "Entra a Imperdibles",
+          "text": "Ves un listado curado de lo más recomendado.",
+          "image": "assets/photos/torres-del-paine.jpg",
+          "place": "Torres del Paine"
+        },
+        {
+          "n": 2,
+          "title": "Elige una zona",
+          "text": "Filtra por región o tipo de experiencia.",
+          "image": "assets/photos/atacama-cod.jpg",
+          "place": "Norte de Chile"
+        },
+        {
+          "n": 3,
+          "title": "Abre la ficha",
+          "text": "Revisa por qué destaca y cómo incorporarlo a tu viaje.",
+          "image": "assets/photos/vina-quinta-rosa.jpg",
+          "place": "Valle vitivinícola"
+        }
+      ]
+    },
+    {
+      "id": "favoritos",
+      "label": "Favoritos",
+      "short": "Tu lista",
+      "title": "Favoritos",
+      "lead": "Guarda destinos y vuelve a ellos cuando planifiques.",
+      "cover": "assets/photos/elqui-cavas.jpg",
+      "steps": [
+        {
+          "n": 1,
+          "title": "Marca un lugar",
+          "text": "Desde cualquier ficha, guarda el destino con un toque.",
+          "image": "assets/photos/san-pedro.jpg",
+          "place": "Atacama"
+        },
+        {
+          "n": 2,
+          "title": "Revisa tu lista",
+          "text": "En Favoritos tienes todo lo que te interesó, ordenado.",
+          "image": "assets/photos/pucon-cabalgata.jpg",
+          "place": "Pucón"
+        },
+        {
+          "n": 3,
+          "title": "Úsalos después",
+          "text": "Pasa favoritos a tu planificación de rutas cuando quieras.",
+          "image": "assets/photos/mataquitos.jpg",
+          "place": "Costa y naturaleza"
+        }
+      ]
+    },
+    {
+      "id": "rutas",
+      "label": "Rutas",
+      "short": "Planifica el viaje",
+      "title": "Planificación de rutas",
+      "lead": "Arma tu recorrido por días y deja el viaje listo para salir.",
+      "cover": "assets/photos/queulat.jpg",
+      "steps": [
+        {
+          "n": 1,
+          "title": "Crea una ruta",
+          "text": "Define el destino o el recorrido que quieres hacer.",
+          "image": "assets/photos/avistamiento.jpg",
+          "place": "Ruta naturaleza"
+        },
+        {
+          "n": 2,
+          "title": "Ordena por días",
+          "text": "Organiza paradas y actividades en una secuencia clara.",
+          "image": "assets/photos/city-tour.jpg",
+          "place": "Ruta urbana"
+        },
+        {
+          "n": 3,
+          "title": "Lleva el plan",
+          "text": "Consulta tu ruta cuando estés en camino.",
+          "image": "assets/photos/plaza-camilo-mori.jpg",
+          "place": "Listo para salir"
+        }
+      ]
+    }
+  ]
+};

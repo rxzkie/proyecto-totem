@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="theme-color" content="#ffffff">
+  <title>ChileTravel · Tótem</title>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <div id="stage" class="mode-home">
+    <div class="app">
+      <header class="topbar" id="topbar">
+        <div class="brand">
+          <img class="brand-logo" src="assets/chile-logo-full.png" alt="Chile Travel">
+        </div>
+        <div class="nav-actions">
+          <button class="btn btn-ghost" type="button" id="btnHome">Inicio</button>
+          <button class="btn btn-solid" type="button" id="btnMenu" hidden>Menú</button>
+        </div>
+      </header>
+
+      <main class="viewport">
+        <section class="screen is-active" data-screen="loop" id="screenLoop">
+          <div class="home-hero" id="homeHero">
+            <div class="home-hero-bg" aria-hidden="true">
+              <video class="home-hero-video" id="heroVideo" muted loop playsinline autoplay preload="auto">
+                <source src="assets/hero.mp4?v=op01" type="video/mp4">
+              </video>
+              <div class="home-hero-fallback">
+                <div class="sky-wash"></div>
+                <div class="lake"></div>
+                <div class="peak peak-a"></div>
+                <div class="peak peak-b"></div>
+                <div class="peak peak-c"></div>
+              </div>
+              <div class="home-hero-scrim"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="screen" data-screen="menu" id="screenMenu">
+          <article class="panel panel-menu">
+            <div class="menu-head">
+              <h2 id="menuTitle">Explora la app</h2>
+              <p id="menuHint">Toca una sección para ver cómo funciona</p>
+            </div>
+            <div class="menu-grid" id="menuGrid"></div>
+          </article>
+        </section>
+
+        <section class="screen" data-screen="section" id="screenSection">
+          <article class="panel panel-section">
+            <div class="panel-head">
+              <h2 id="sectionTitle">Sección</h2>
+              <p id="sectionLead"></p>
+            </div>
+            <div class="steps" id="steps"></div>
+            <div class="demo-stage" id="demoStage"></div>
+          </article>
+        </section>
+      </main>
+
+      <footer class="qr-strip" aria-label="Descarga ChileTravel">
+        <div class="qr-cta">Descárgala aquí</div>
+        <div class="qr-row">
+          <div class="qr-box">
+            <div class="qr-canvas"><canvas id="qrIos" width="168" height="168"></canvas></div>
+            <div class="qr-meta">
+              <div class="store-badge store-badge-apple" aria-label="App Store">
+                <svg viewBox="0 0 140 42" role="img" aria-hidden="true">
+                  <rect x="0.5" y="0.5" width="139" height="41" rx="7" fill="#000" stroke="#a6a6a6"/>
+                  <g fill="#fff" transform="translate(10,7)">
+                    <path d="M19.3 9.1c-.1-1.4.6-2.7 1.5-3.6.9-1 2.4-1.7 3.6-1.7.1 1.4-.5 2.7-1.4 3.7-.9 1-2.3 1.7-3.7 1.6zm3.9 1.8c-2.1-.1-3.9 1.2-4.9 1.2-1.1 0-2.6-1.1-4.3-1.1-2.2.1-4.2 1.3-5.3 3.2-2.3 3.9-.6 9.7 1.6 12.9 1.1 1.5 2.4 3.2 4.1 3.2 1.6-.1 2.2-1 4.2-1s2.5 1 4.2.9c1.8-.1 2.9-1.5 3.9-3.1 1.2-1.7 1.7-3.4 1.7-3.5-.1 0-3.3-1.3-3.3-4.9 0-3.1 2.5-4.5 2.6-4.6-1.5-2.1-3.7-2.4-4.5-2.5z"/>
+                  </g>
+                  <text x="42" y="16" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="8">Download on the</text>
+                  <text x="42" y="31" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">App Store</text>
+                </svg>
+              </div>
+              <span id="ctaText">Escanea y descarga gratis</span>
+            </div>
+          </div>
+          <div class="qr-box">
+            <div class="qr-canvas"><canvas id="qrAndroid" width="168" height="168"></canvas></div>
+            <div class="qr-meta">
+              <div class="store-badge store-badge-google" aria-label="Google Play">
+                <svg viewBox="0 0 155 42" role="img" aria-hidden="true">
+                  <rect x="0.5" y="0.5" width="154" height="41" rx="7" fill="#000" stroke="#a6a6a6"/>
+                  <g transform="translate(9,8)">
+                    <path fill="#00F076" d="M1.1 1.1C.4 1.5 0 2.3 0 3.3v19.4c0 .9.4 1.7 1.1 2.1l.2.1 13.7-11.2v-.2L1.3 1l-.2.1z"/>
+                    <path fill="#FF3A44" d="m14.9 14.1-13.6 11c.3.3.9.6 1.5.6.6 0 1.2-.2 1.8-.5l15.5-8.9v-.1l-5.2-2.1z"/>
+                    <path fill="#FFB400" d="m20.1 8.1-5.2 2.9 5.2 5.2 5.2-3c1-.6 1-1.5 0-2.1l-5.2-3z"/>
+                    <path fill="#00D3FF" d="M1.3 1.4 15 12.7l5.1-2.9L4.6.7C4 .3 3.4.1 2.8.1c-.6 0-1.2.2-1.5.6v.7z"/>
+                  </g>
+                  <text x="42" y="16" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="8">GET IT ON</text>
+                  <text x="42" y="31" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">Google Play</text>
+                </svg>
+              </div>
+              <span>Abre la tienda en tu teléfono</span>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <section class="home-dock" id="homeDock">
+        <div class="home-grid" id="homeGrid"></div>
+        <button class="home-hint" type="button" id="homeHint">
+          <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M9 11.24V7.5a2.5 2.5 0 0 1 5 0v3.74a4 4 0 1 1-5 0zm7.5 1.01-2 .66A3.2 3.2 0 0 1 17 15.7V18a1.5 1.5 0 0 1-1.5 1.5h-3.8a1.5 1.5 0 0 1-1.1-.5l-3.7-3.9.7-.65a1 1 0 0 1 .7-.25H9v-3.45a4.5 4.5 0 0 0 9 0c0-.2 0-.4-.05-.59z"/></svg>
+          <span>Toca para explorar</span>
+        </button>
+      </section>
+    </div>
+  </div>
+
+  <script src="js/content.js"></script>
+  <script src="js/qr.js"></script>
+  <script src="js/idle.js"></script>
+  <script src="js/router.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,221 @@
+{
+  "brand": "ChileTravel",
+  "tagline": "Planifica, descubre y vive lo mejor de Chile.",
+  "cta": "Escanea y descarga gratis",
+  "hero": {
+    "video": "assets/hero.mp4?v=op01",
+    "width": 1080,
+    "height": 960
+  },
+  "maps": {
+    "apiKey": ""
+  },
+  "qr": {
+    "ios": "https://apps.apple.com/cl/app/id1635199032",
+    "android": "https://play.google.com/store/apps/details?id=cl.sernatur.chiletravel"
+  },
+  "idleMs": 60000,
+  "loop": {
+    "slideMs": 9000,
+    "slides": [
+      {
+        "id": "proposito",
+        "title": "ChileTravel",
+        "text": "Planifica, descubre y vive lo mejor de Chile.",
+        "subtitle": "App oficial"
+      },
+      {
+        "id": "descubre",
+        "title": "Descubre",
+        "text": "Inicio personalizado con destinos según lo que te gusta.",
+        "subtitle": "Sección 1 de 6"
+      },
+      {
+        "id": "mapa",
+        "title": "Mapa",
+        "text": "Explora regiones, rutas y puntos de interés en el mapa.",
+        "subtitle": "Sección 2 de 6"
+      },
+      {
+        "id": "ia",
+        "title": "Asistente IA",
+        "text": "Pregunta y recibe ideas de viaje listas para usar.",
+        "subtitle": "Sección 3 de 6"
+      },
+      {
+        "id": "imperdibles",
+        "title": "Imperdibles",
+        "text": "Lo mejor de cada zona, seleccionado para ti.",
+        "subtitle": "Sección 4 de 6"
+      },
+      {
+        "id": "favoritos",
+        "title": "Favoritos",
+        "text": "Guarda lugares y arma tu lista de próximos destinos.",
+        "subtitle": "Sección 5 de 6"
+      },
+      {
+        "id": "rutas",
+        "title": "Planificación de rutas",
+        "text": "Ordena tu recorrido día a día y sal a recorrer.",
+        "subtitle": "Sección 6 de 6"
+      },
+      {
+        "id": "descarga",
+        "title": "Descárgala ahora",
+        "text": "Escanea el código QR de abajo con tu teléfono.",
+        "subtitle": "App Store y Google Play"
+      }
+    ]
+  },
+  "menu": {
+    "title": "Explora la app",
+    "hint": "Toca una sección para ver cómo funciona"
+  },
+  "sections": [
+    {
+      "id": "descubre",
+      "label": "Descubre",
+      "short": "Inicio personalizado",
+      "title": "Descubre e inicio personalizado",
+      "lead": "ChileTravel te muestra destinos según tus intereses desde el primer ingreso.",
+      "steps": [
+        {
+          "n": 1,
+          "title": "Abre la app",
+          "text": "Entras y ves un inicio con propuestas claras para empezar a explorar Chile."
+        },
+        {
+          "n": 2,
+          "title": "Elige tus intereses",
+          "text": "Naturaleza, cultura, gastronomía o aventura: la app ajusta lo que te muestra."
+        },
+        {
+          "n": 3,
+          "title": "Recibe tu feed",
+          "text": "Aparecen destinos y experiencias alineados a lo que marcaste."
+        }
+      ]
+    },
+    {
+      "id": "mapa",
+      "label": "Mapa",
+      "short": "Explora el territorio",
+      "title": "Mapa",
+      "lead": "Navega Chile en el mapa y ubica regiones, rutas y lugares clave.",
+      "steps": [
+        {
+          "n": 1,
+          "title": "Abre el mapa",
+          "text": "Ves el país completo y puedes acercarte a la zona que te interesa."
+        },
+        {
+          "n": 2,
+          "title": "Filtra lo que buscas",
+          "text": "Activa categorías para ver solo lo relevante en esa zona."
+        },
+        {
+          "n": 3,
+          "title": "Entra al detalle",
+          "text": "Toca un punto y revisa información útil para tu visita."
+        }
+      ]
+    },
+    {
+      "id": "ia",
+      "label": "Asistente IA",
+      "short": "Ideas de viaje",
+      "title": "Asistente IA",
+      "lead": "Consulta ideas de viaje con ejemplos listos. En el tótem se muestra una demostración aprobada, sin IA en vivo.",
+      "steps": [
+        {
+          "n": 1,
+          "title": "Escribe tu idea",
+          "text": "Ejemplo: “fin de semana cerca de Santiago con naturaleza”."
+        },
+        {
+          "n": 2,
+          "title": "Revisa la propuesta",
+          "text": "La app entrega opciones concretas con destinos y actividades."
+        },
+        {
+          "n": 3,
+          "title": "Guarda lo que te sirve",
+          "text": "Agrega ideas a favoritos o úsalas para armar tu ruta."
+        }
+      ]
+    },
+    {
+      "id": "imperdibles",
+      "label": "Imperdibles",
+      "short": "Lo mejor de Chile",
+      "title": "Imperdibles",
+      "lead": "Una selección de experiencias y lugares destacados por zona.",
+      "steps": [
+        {
+          "n": 1,
+          "title": "Entra a Imperdibles",
+          "text": "Ves un listado curado de lo más recomendado."
+        },
+        {
+          "n": 2,
+          "title": "Elige una zona",
+          "text": "Filtra por región o tipo de experiencia."
+        },
+        {
+          "n": 3,
+          "title": "Abre la ficha",
+          "text": "Revisa por qué destaca y cómo incorporarlo a tu viaje."
+        }
+      ]
+    },
+    {
+      "id": "favoritos",
+      "label": "Favoritos",
+      "short": "Tu lista",
+      "title": "Favoritos",
+      "lead": "Guarda destinos y vuelve a ellos cuando planifiques.",
+      "steps": [
+        {
+          "n": 1,
+          "title": "Marca un lugar",
+          "text": "Desde cualquier ficha, guarda el destino con un toque."
+        },
+        {
+          "n": 2,
+          "title": "Revisa tu lista",
+          "text": "En Favoritos tienes todo lo que te interesó, ordenado."
+        },
+        {
+          "n": 3,
+          "title": "Úsalos después",
+          "text": "Pasa favoritos a tu planificación de rutas cuando quieras."
+        }
+      ]
+    },
+    {
+      "id": "rutas",
+      "label": "Rutas",
+      "short": "Planifica el viaje",
+      "title": "Planificación de rutas",
+      "lead": "Arma tu recorrido por días y deja el viaje listo para salir.",
+      "steps": [
+        {
+          "n": 1,
+          "title": "Crea una ruta",
+          "text": "Define el destino o el recorrido que quieres hacer."
+        },
+        {
+          "n": 2,
+          "title": "Ordena por días",
+          "text": "Organiza paradas y actividades en una secuencia clara."
+        },
+        {
+          "n": 3,
+          "title": "Lleva el plan",
+          "text": "Consulta tu ruta cuando estés en camino."
+        }
+      ]
+    }
+  ]
+}

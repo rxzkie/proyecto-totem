@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 96" fill="none">
+  <rect width="480" height="96" rx="0" fill="none"/>
+  <circle cx="40" cy="48" r="28" fill="#D52B1E"/>
+  <path d="M40 28l4.2 12.8H58l-11 8 4.2 12.8L40 53.6 28.8 61.6l4.2-12.8-11-8h13.8L40 28z" fill="#fff"/>
+  <text x="84" y="58" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700" fill="#0B1F33">ChileTravel</text>
+</svg>
